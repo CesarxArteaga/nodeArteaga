@@ -20,4 +20,4 @@ app.get('/', function (req, res){
 
 app.get('/', (req, res) => res.render('home'));
 
-app.listen(PORT , () => console.log('localhost on ${PORT}'));
+app.listen(PORT , () => console.log(`localhost on ${PORT}`));
